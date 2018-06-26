@@ -1,5 +1,5 @@
 # Submission code
-          --RMSTeam
+          --RMSTeam Machine Learning Hackathon
 -----------------------------------------------------------------
 
 This is the working code for classification done by using past behaviour, which we implemented for  machine learning contest.
@@ -23,21 +23,27 @@ This code contains following files
 	It uses two classification algorithms 
 	i) Fisher score based Naive bayesian Classification
 	ii) Linear SVM text classifier
+	
 2. "politics.txt"
 	This politics.txt file only contains Politics tweets extracted from "training.txt", that you have provided before
+	
 3. "sports".txt"
 	This sports.txt file only contains Sports tweets extracted from "training.txt", that you have provided before
+	
 4. "politics_validated.txt"
 	It contains validated Politics tweets which are nothing but ouput prediction of my model for validaion data you provided.
 	It only contains tweet predictions with high decision probability. 
 	I extracted predictions with more than 0.5 diffrence probability i.e Pr(Sports/tweet)-Pr(Politics/tweet)
+	
 5. "sports_validated.txt"
-	It contains validated Sports tweets which are predicted by my model during validation phase with high probability difference 
-	which is explained earlier.
+	It contains validated Sports tweets which are predicted by my model during validation phase with high probability difference which is explained earlier.
+	
 6. "stopwords.txt"
 	This is collection of some stop words which were gathered from external sources. 
 Note: I have not used any other sports or politics external keywords.
+
 7. "validation.txt" and "test.txt"
+
 8. "result.txt"
 	Output predictions of my model will be stored in this file.
 
